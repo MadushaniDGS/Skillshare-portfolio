@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <!-- styles -->
+    <link rel="stylesheet" href="Styles/style.css">
+     <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- nav bar start -->
+     <header class="header">
+        <!-- nav logo -->
+        <a href="#" class="logo"><img src="images/logo.png" alt="logo" class="logo"></a>
+        <!-- menu icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- menu list -->
+        <div class="navbar">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about" onclick="">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+    </header>
+    <!-- nav bar end -->
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's me</h3>
+            <h1>Gojo Satoru</h1>
+            <h3>I'm a <span class="primary-color">Frontend Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti aliquid doloremque quibusdam ratione iure totam accusamus eligendi, dolorum alias porro explicabo? Et corrupti veritatis placeat animi nemo, nihil delectus.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            </div>
+        <a href="" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/hero.jpeg" alt="Profile-pic">
+        </div>
+    </section>
+    <!-- home section end -->
+
+     <!-- about section start -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eveniet molestiae voluptatibus inventore reprehenderit repellat excepturi eius ab impedit, consequuntur animi numquam, officia ducimus. Expedita blanditiis nam recusandae autem velit.
+            Tempore voluptas beatae ex quis? Qui, consequatur consectetur distinctio exercitationem sequi, cum officiis voluptates suscipit quae pariatur aliquam dolorem, eum maxime. Impedit ab est quo dolores animi repellendus mollitia corporis?
+            </p>
+            <a href="#education" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- education section start -->
+     <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <!-- education column start -->
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>since 2023</div>
+                            <h3>Undergraduate</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores id laudantium harum obcaecati maxime perferendis odio aspernatur corrupti minus architecto iusto rem, recusandae vitae exercitationem tempora et tempore? Non.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- education column end -->
+            <!-- experience column start -->
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2021-2022</div>
+                            <h3>Web Designe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis maiores id laudantium harum obcaecati maxime perferendis odio aspernatur corrupti minus architecto iusto rem, recusandae vitae exercitationem tempora et tempore? Non.</p>
+                        </div>
+                    </div>
+                
+                    
+                </div>
+            </div>
+            <!-- experience column end -->
+        </div>
+    </section>
+    <!-- education section end -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form 
+            name="contact-form"
+            action=""
+        >
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="full-name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" name="mobile-number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="textarea-field">
+                <textarea cols="30" rows="10" name="message" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+            <div id="status-message" class="status-message"></div>
+            <div class="btn-box btns">
+                <button type="submit" value="Submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <!-- contact section end -->
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Gojo Satoru  | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- custom js -->
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
